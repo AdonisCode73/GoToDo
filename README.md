@@ -11,6 +11,9 @@ Setup the Firebase as follows:
   - InProgress = boolean
 
 How to use:
+
+Setup Environment Variables for GOOGLE_APPLICATION_CREDENTIALS and PROJECT_ID and (optional) PORT
+
 CLI: 
   - go run . add --name "{Task Name}" --due "{Due Date FORMAT: YYYY-MM-DD OR YYYY-MM-DD HH:MM}"
   - go run . list (optional) --all (NOTE: all flag shows completed tasks)
