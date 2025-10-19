@@ -32,7 +32,6 @@ Environment=PORT=8080
 Restart=always
 RestartSec=2
 
-# Security hardening (optional but recommended)
 NoNewPrivileges=true
 ProtectSystem=full
 ProtectHome=true
