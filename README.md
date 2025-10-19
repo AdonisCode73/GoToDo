@@ -15,8 +15,10 @@ CLI:
   - go run . add --name "{Task Name}" --due "{Due Date FORMAT: YYYY-MM-DD OR YYYY-MM-DD HH:MM}"
   - go run . list (optional) --all (NOTE: all flag shows completed tasks)
   - go run . done --docID "{TASK XYZ}"
+
 Server:
   - I set up a sytemd service on the pi as follows:
+
 [Unit]
 Description=Todo API Firestore Server
 After=network-online.target
